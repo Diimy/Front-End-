@@ -1,0 +1,80 @@
+body {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+header, footer {
+    border: 3px solid black;
+    border-radius: 20px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo p {
+    font-size: 1.5em;
+    font-weight: 600;
+    margin: 0;
+  }
+  .item-nav {
+    float: left;
+    padding: 14px 16px;
+  }
+
+  .item-nav a {
+    color: blue;
+  }
+  
+  .item-nav a:hover {
+    color: darkblue;
+    text-decoration: none;
+  }
+
+main {
+    text-align: center;
+    margin: 50px;
+}
+
+main h1 {
+  font-weight: bold;
+  margin: 30px 0;
+}
+
+.card {
+  border: 3px solid black;
+  border-radius: 20px;
+  margin: 30px 0;
+}
+
+.card-title {
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-text {
+  margin: 15px 0;
+}
+.card-img {
+  width: 100px;
+  margin: 20px 0;
+}
+
+.btn-toolbar {
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.card-img {
+  width: 100%;
+  height: 200px;
+  object-fit:  scale-down;
+  }
